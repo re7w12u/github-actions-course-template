@@ -9,7 +9,7 @@ describe('App', () => {
       done()
     })*/
     it.skip();
-  //})
+  })
 })
 
 describe('Game', () => {
