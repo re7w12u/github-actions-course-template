@@ -34,7 +34,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - uses: actions/upload-artifact@master
+    - uses: actions/download-artifact@master
       with:
         name: webpack artifact
         path: public/
