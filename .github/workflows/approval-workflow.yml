@@ -9,5 +9,5 @@ jobs:
         uses: abinoda/label-when-approved-action@v1.0.7
         env:
           APPROVALS: "1"
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.MY_PAT }}
           ADD_LABEL: "approved"
